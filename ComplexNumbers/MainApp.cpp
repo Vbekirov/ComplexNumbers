@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iomanip>
 #include <conio.h>
+#include <Windows.h>
 
 #include "Complex.h"
 
@@ -19,6 +20,7 @@ void expItem();
 int main()
 {
 	setlocale(LC_ALL, "Russian");
+	SetConsoleTitle(TEXT("ComplexApp"));
 	system("color 0A");
 	system("mode con cols=60 lines=20");
 	

@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Complex.cpp" />
-    <ClCompile Include="ComplexNumbers.cpp" />
+    <ClCompile Include="ComplexNumbers\Complex.cpp" />
+    <ClCompile Include="ComplexNumbers\MainApp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Complex.h" />
+    <ClInclude Include="ComplexNumbers\Complex.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -92,7 +92,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
